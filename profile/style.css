@@ -1,0 +1,259 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 100%;
+	background-color: #3C6382;
+}
+
+header h1 {
+	display: inline-block;
+	padding: 15px 24px;
+}
+
+header h1 a {
+	color: white;
+}
+
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	padding: 24px;
+	display: inline-block;
+}
+
+header ul li a {
+	transition: .3s;
+	color: white;
+}
+
+header ul li a:hover {
+	color: #F8C291;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.contact {
+	padding-bottom: 15px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	color: #3C6382;
+}
+
+.declar {
+	display: flex;
+	justify-content: center;
+}
+
+.ul-contact {
+	display: flex;
+	justify-content: center;
+}
+
+.li-contact {
+	padding: 5px;
+	margin: 10px;
+	list-style-type: none;
+}
+
+footer {
+	padding: 30px 0;
+	background-color: #3C6382;
+	color: #fff;
+	text-align: center;
+}
+.bannerbaru{
+	padding: 50px 0;
+	background-color: #3C6382;
+	color: #fff;
+	text-align: center;
+	/*position: relative;
+	display: flex;*/
+	justify-content:flex-end;
+}
+
+
+.info p {
+	padding: 30px 0;
+	margin-top: 10px;
+	color: #3C6382;
+	text-align: center;
+}
+.school p {
+	padding: 30px 0;
+	margin-top: -10px;
+	color: white;
+	text-align: center;
+}
+
+.more {
+	justify-content: center;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-top: -10px;
+}
+
+.div1 {
+	width: 33.33%;
+	float: right;
+	padding: px 0;
+}
+
+.div2 {
+	width: 33.33%;
+	float: left;
+	padding: 10px 0;
+}
+
+.div3 {
+	width: 33.33%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.more p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: justify;
+	max-width: 400px;
+}
+
+.profile-content {
+    position: relative;
+    width: auto;
+    height: 80vh;
+    background: url('../assets/me.png');
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: right;
+    display: flex;
+    align-items: center;
+}
+
+.content-cover {
+    max-width: 700px;
+	word-spacing: 2px;
+    line-height: 25px;
+	margin-left: 60px;
+    color: #000000;
+}
+
+.content-cover h2 {
+    font-size: 40px;
+}
+
+
+.content-cover h3 {
+    font-size: 32px;
+}
+
+.content-cover p {
+    padding: 10px 0 40px 0;
+	text-align: justify;
+}
+
+.button a {
+    color:#666;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 1px solid #666;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button a:hover {
+	color: #F8C291;
+}
+.imgschool{
+	display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start; 
+	margin-top: 20px;
+	text-align: center;
+	word-spacing: 2px;
+    color: #fff;
+}
+
+.imgschool h4 {
+	margin-top: 5%;
+    font-size: 14px;
+}
+
+.imgschool p {
+    padding: 1px;
+	font-size: 12px;
+}
+
+.school1, .school2, .school3 {
+    width: 15%;
+    padding: 10px;
+}
+
+.school1 img, .school2 img, .school3 img {
+    width: 50%;
+    height: auto;
+}
+
+.experience {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.year {
+    width: 30%;
+    color: #000;
+}
+
+.year h3 {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.details {
+    width: 65%;
+}
+
+.details h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+.details p {
+    font-size: 1em;
+    line-height: 1.5;
+	text-align: justify;
+    color: #000;
+}
